@@ -49,8 +49,7 @@ At the moment, only layout of sites for myself.
 
 ## Education:
 * **University:** Belarusian Academy of Arts
-* **Courses:**
-+ School of Foreign Languages Streamline
+* **Courses:** School of Foreign Languages Streamline
 
 ## English:
 **A2** (But you need to restore skills, since for a long time without practice)
