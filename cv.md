@@ -53,4 +53,4 @@ At the moment, only layout of sites for myself.
 + School of Foreign Languages Streamline
 
 ## English:
-**A2** (Но нужно востонавливать навыки так как лавно без практики)
+**A2** (But you need to restore skills, since for a long time without practice)
