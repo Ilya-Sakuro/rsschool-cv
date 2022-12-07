@@ -1,1 +1,1 @@
-https://github.com/Ilya-Sakuro/rsschool-cv/blob/gh-pages/cv.md
+https://Ilya-Sakuro.github.io/rsschool-cv/
