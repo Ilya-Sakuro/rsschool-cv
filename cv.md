@@ -46,3 +46,11 @@ I am a goal-oriented person, if I am interested in something, then I immediately
 At the moment, only layout of sites for myself.
 
 -----------
+
+## Education:
+* **University:** Belarusian Academy of Arts
+* **Courses:**
++ School of Foreign Languages Streamline
+
+## English:
+**A2** (Но нужно востонавливать навыки так как лавно без практики)
