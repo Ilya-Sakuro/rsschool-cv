@@ -27,7 +27,7 @@ I am a goal-oriented person, if I am interested in something, then I immediately
 
 ## Code Example:
 
-`<!DOCTYPE html>
+```<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -38,4 +38,5 @@ I am a goal-oriented person, if I am interested in something, then I immediately
 <body>
     
 </body>
-</html>`
+</html>
+```
