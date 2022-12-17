@@ -13,26 +13,26 @@
     <div class="wraper">
         <header class="header">
             <div class="header__box">
-                <img src="/rsschool-cv/img/AVATAR.jpg" alt="Avatar" class="header__avatar">
+
                 <nav class="header__menu menu">
                     <ul class="menu__list">
                         <li class="menu__item">
-                            <a href="#" class="menu__link">About Myself</a>
+                            <a href="#About" class="menu__link">About Myself</a>
                         </li>
                         <li class="menu__item">
-                            <a href="#" class="menu__link">Skills</a>
+                            <a href="#Skills" class="menu__link">Skills</a>
                         </li>
                         <li class="menu__item">
-                            <a href="#" class="menu__link">Code</a>
+                            <a href="#Code" class="menu__link">Code</a>
                         </li>
                         <li class="menu__item">
-                            <a href="#" class="menu__link">Experience</a>
+                            <a href="#Experience" class="menu__link">Experience</a>
                         </li>
                         <li class="menu__item">
-                            <a href="#" class="menu__link">Education</a>
+                            <a href="#Education" class="menu__link">Education</a>
                         </li>
                         <li class="menu__item">
-                            <a href="#" class="menu__link">Language</a>
+                            <a href="#Language" class="menu__link">Language</a>
                         </li>
                     </ul>
                 </nav>
@@ -41,6 +41,7 @@
         <main class="main">
             <section class="contact">
                 <div class="contact__box">
+                    <img src="/rsschool-cv/img/AVATAR.jpg" alt="Avatar" class="header__avatar">
                     <div class="contact__content">
                         <div class="contact__text-block text-block">
                             <h1 class="text-block__title">Ilya Finevich-Sakuro</h1>
@@ -63,9 +64,80 @@
                     </div>
                 </div>
             </section>
+            <section class="myself">
+                <div class="myself__box">
+                    <div class="myself__about">
+                        <div id="About" class="about__title border_yellow">Briefly About Myself:</div>
+                        <div class="about__text">
+                            <p class="text__item"> My name is Ilya and I am 28 years old.
+                                I have worked in the film industry all my adult life.</p>
+                            <p class="text__item">Now I switched to programming because of great interest and I was
+                                immediately drawn into it.
+                                I am a goal-oriented person, if I am interested in something, then I immediately try to
+                                get
+                                to
+                                the very essence.</p>
+                        </div>
+                    </div>
+                    <div class="myself__skills">
+                        <div id="Skills" class="skills__title border_yellow">Skills and Proficiency:</div>
+                        <ul class="skills__list">
+                            <li class="skills__item">HTML, CSS</li>
+                            <li class="skills__item">JavaScript Basics</li>
+                            <li class="skills__item">Git, GitHub</li>
+                            <li class="skills__item">VS Code</li>
+                            <li class="skills__item">Adobe Premiere Pro</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="myself__border_yeloow"></div>
+            </section>
+            <section class="experience">
+                <div class="experience__box">
+                    <div class="experience-code">
+                        <div id="Code" class="experience-code__title border_yellow">Code Example:</div>
+                        <pre class="experience-code__code"><code>function ask(question, yes, no) {
+if (confirm(question)) yes()
+else no();
+}</code></pre>
+                    </div>
+                    <div class="experience-box">
+                        <div id="Experience" class="experience__title border_yellow">Experience:</div>
+                        <p class="experience__text">At the moment, only layout of sites for myself.</p>
+                    </div>
+                </div>
+                <div class="myself__border_yeloow"></div>
+            </section>
+            <section class="education">
+                <div class="education__box">
+                    <div class="education-box">
+                        <div id="Education" class="education__title border_yellow">Education:</div>
+                        <div class="education__text">
+                            <p class="education__text-text"><span class="text_bold">University:</span> Belarusian
+                                Academy of Arts</p>
+                            <p class="education__text-text"><span class="text_bold">Courses:</span> School of Foreign
+                                Languages Streamline</p>
+                        </div>
+                    </div>
+                    <div class="education-engbox">
+                        <div id="Language" class="education-engbox__title border_yellow">English:</div>
+                        <p class="education-engbox__text"><span class="text_bold">A2</span> (But you need to restore
+                            skills, since for a long time without practice)</p>
+                    </div>
+                </div>
+                <div class="myself__border_yeloow"></div>
+            </section>
         </main>
         <footer class="footer">
-            footer
+            <div class="footer__box">
+                <div class="footer__date">2022</div>
+                <div class="footer__git-link"><a href="https://github.com/Ilya-Sakuro" class="git__link">Ilya-Sakuro</a>
+                </div>
+                <div class="footer__linkcurse"><a href="https://rs.school/js-stage0/" class="link__curse">Stage</a>
+                </div>
+                <div class="footer__rsslogo"><img src="https://smartprogress.do/uploadImages/001539947.jpg"
+                        alt="RSSlogo" class="rss__logo"></div>
+            </div>
         </footer>
     </div>
 </body>
