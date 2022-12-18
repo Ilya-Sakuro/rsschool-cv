@@ -110,6 +110,10 @@ body {
 
 }
 
+html {
+	background: #c7c7c7;
+}
+
 body {
 	line-height: 15px;
 	font-family: Cabin;
@@ -119,10 +123,13 @@ body {
 }
 
 .wraper {
+	box-shadow: 0 0 10px rgb(0 0 0 / 50%);
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
 	min-height: 100%;
+	max-width: 1215px;
+	margin: 0px auto;
 }
 
 .main {
@@ -192,6 +199,7 @@ a:hover {
 .contact {
 	min-height: 200px;
 	padding: 20px 0px;
+	background: white;
 }
 
 .contact__box {
@@ -303,7 +311,7 @@ a:hover {
 }
 
 .myself__border_yeloow {
-	border-bottom: 20px solid #FFC905;
+	border-bottom: 10px solid #FFC905;
 	max-width: 1215px;
 	margin: 0 auto;
 }
@@ -407,6 +415,10 @@ a:hover {
 	font-weight: 600;
 	font-size: 14px;
 	line-height: 15px;
+}
+
+.footer {
+	background: white;
 }
 
 .footer__box {
