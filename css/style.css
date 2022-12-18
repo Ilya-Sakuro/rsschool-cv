@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:regular,500,600,700,italic,500italic,600italic,700italic&display=swap');
+
 * {
 	padding: 0px;
 	margin: 0px;
@@ -10,34 +12,38 @@
 	box-sizing: border-box;
 }
 
-:focus,
-:active {
+a,
+a:link,
+a:visited {
+	text-decoration: none;
 }
 
-a:focus,
-a:active {
+a:hover {
+	text-decoration: none;
 }
 
-a, a:link, a:visited  {
-    text-decoration: none;
-}
-
-a:hover  {
-    text-decoration: none;
-}
-
-
-
-aside, nav, footer, header, section, main {
+aside,
+nav,
+footer,
+header,
+section,
+main {
 	display: block;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-    font-size: inherit;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-size: inherit;
 	font-weight: inherit;
 }
 
-ul, ul li {
+ul,
+ul li {
 	list-style: none;
 }
 
@@ -45,37 +51,44 @@ img {
 	vertical-align: top;
 }
 
-img, svg {
+img,
+svg {
 	max-width: 100%;
 	height: auto;
 }
 
 address {
-  font-style: normal;
+	font-style: normal;
 }
 
-input, textarea, button, select {
+input,
+textarea,
+button,
+select {
 	font-family: inherit;
-    font-size: inherit;
-    color: inherit;
-    background-color: transparent;
+	font-size: inherit;
+	color: inherit;
+	background-color: transparent;
 }
 
 input::-ms-clear {
 	display: none;
 }
 
-button, input[type="submit"] {
-    display: inline-block;
-    box-shadow: none;
-    background-color: transparent;
-    background: none;
-    cursor: pointer;
+button,
+input[type="submit"] {
+	display: inline-block;
+	box-shadow: none;
+	background-color: transparent;
+	background: none;
+	cursor: pointer;
 }
 
-input:focus, input:active,
-button:focus, button:active {
-    outline: none;
+input:focus,
+input:active,
+button:focus,
+button:active {
+	outline: none;
 }
 
 button::-moz-focus-inner {
@@ -89,4 +102,356 @@ label {
 
 legend {
 	display: block;
+}
+
+html,
+body {
+	height: 100%;
+
+}
+
+html {
+	background: #c7c7c7;
+}
+
+body {
+	line-height: 15px;
+	font-family: Cabin;
+	font-weight: 500;
+	font-size: 14px;
+	font-style: normal;
+}
+
+.wraper {
+	box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	max-width: 1215px;
+	margin: 0px auto;
+}
+
+.main {
+	flex: 1 1 auto;
+}
+
+[class*='__box'] {
+	max-width: 1215px;
+	margin: 0px auto;
+	padding: 0px 15px;
+}
+
+
+.header {
+	background: #292935;
+}
+
+.header__box {
+	display: flex;
+	min-height: 115px;
+	align-items: center;
+}
+
+.header__avatar {
+	width: 300px;
+	height: 200px;
+	border-radius: 10% / 50%;
+}
+
+.header__menu {
+	flex: 1 1 auto;
+}
+
+.menu {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.menu__list {
+	display: flex;
+}
+
+.menu__item {
+	margin: 0px 20px 0px 0px;
+}
+
+
+.menu__link {
+	text-transform: uppercase;
+}
+
+.menu__link,
+a:visited {
+	background: #FFC905;
+	border-radius: 2.5px;
+	color: #000;
+	padding: 5px 10px;
+}
+
+.menu__link,
+a:hover {
+	color: red;
+}
+
+
+
+.contact {
+	min-height: 200px;
+	padding: 20px 0px;
+	background: white;
+}
+
+.contact__box {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.contact__text-block {
+	display: flex;
+	flex-direction: column;
+	min-height: 200px;
+	justify-content: space-between;
+}
+
+
+.text-block__title {
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 36px;
+}
+
+.text-block__text {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+.text-block__title2 {
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 21px;
+	color: #000;
+}
+
+
+.yellow-box {
+	background: #FFC905;
+	border-radius: 2.5px;
+	color: #000;
+	padding: 5px 10px;
+}
+
+.contacts__icon {
+	margin-right: 5px;
+	max-width: 20px;
+}
+
+.myself {
+	background: #22222E;
+}
+
+.myself__box {
+	display: flex;
+	justify-content: space-around;
+	color: white;
+	flex-direction: row-reverse;
+}
+
+.myself__about {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 20%;
+}
+
+.about__title {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.about__text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	min-height: 120px;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 15px;
+}
+
+.text__item {
+	margin: 5px 0px;
+}
+
+.about__text :last-child {
+	padding: 0px 0px 20px;
+}
+
+.skills__title {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.skills__list {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 123px;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 15px;
+}
+
+.skills__list li {
+	list-style-type: circle;
+}
+
+.myself__border_yeloow {
+	border-bottom: 10px solid #FFC905;
+	max-width: 1215px;
+	margin: 0 auto;
+}
+
+.border_yellow {
+	border-bottom: 2px solid #FFC905;
+	max-width: max-content;
+	padding: 15px 0px;
+	margin: 0px 0px 15px;
+}
+
+.experience {
+	color: white;
+	background: #22222E;
+}
+
+.experience__box {
+	display: flex;
+	justify-content: space-around;
+}
+
+.experience-code {
+	max-width: 20%;
+}
+
+.experience-code__title {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.experience-code__code {
+	min-height: 120px;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 15px;
+}
+
+.experience-box {
+	max-width: 22%;
+}
+
+.experience__title {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.experience__text {
+	min-height: 120px;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 15px;
+}
+
+.education {
+	color: white;
+	background: #22222E;
+}
+
+.education__box {
+	display: flex;
+	justify-content: space-around;
+}
+
+.education-box {
+	max-width: 22%;
+}
+
+.education__title {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.education__text {
+	min-height: 120px;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 15px;
+}
+
+
+.text_bold {
+	font-weight: 800;
+	color: #FFC905;
+}
+
+.education-engbox {
+	max-width: 22%;
+}
+
+.education-engbox__title {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.education-engbox__text {
+	min-height: 120px;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 15px;
+}
+
+.footer {
+	background: white;
+}
+
+.footer__box {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer__date {
+	background: #FFC905;
+	border-radius: 2.5px;
+	color: #000;
+	padding: 5px 10px;
+}
+
+.footer__git-link {
+	background: #FFC905;
+	border-radius: 2.5px;
+	color: #000;
+	padding: 5px 10px;
+}
+
+
+
+.rss__logo {
+	width: 50px;
+	height: 50px;
+}
+
+
+.link__curse {
+	background: #FFC905;
+	border-radius: 2.5px;
+	color: #000;
+	padding: 5px 10px;
 }
